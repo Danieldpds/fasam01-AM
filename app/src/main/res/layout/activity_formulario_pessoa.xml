@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/activity_formulario_pessoa_nome"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Nome"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"/>
+   
+    <EditText
+        android:id="@+id/activity_formulario_pessoa_ano_de_nascimento"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Ano de Nascimento"
+        android:inputType="date"
+        android:layout_height="wrap_content"/>
+   
+    <EditText
+        android:id="@+id/activity_formulario_pessoa_cor_dos_olhos"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Cor dos Olhos"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"/>
+   
+    <EditText
+        android:id="@+id/activity_formulario_pessoa_genero"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Gênero"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"/>
+   
+    <EditText
+        android:id="@+id/activity_formulario_pessoa_cor_de_cabelo"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Cor de Cabelo"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/activity_formulario_pessoa_botao_salvar"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="Salvar"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
